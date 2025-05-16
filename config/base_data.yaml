@@ -1,0 +1,5 @@
+model_lifespans:
+    default: 10
+    technology_node: 5
+economic_factors:
+    global_gdp_growth_baseline: 0.025

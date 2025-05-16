@@ -1,0 +1,496 @@
+2025:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2026:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2027:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2028:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2029:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2030:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2031:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2032:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2033:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2034:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2035:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2036:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2037:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2038:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2039:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null
+2040:
+    regions:
+    -   model_id: USA
+        name: United States
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: China
+        name: China
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    -   model_id: EU
+        name: European Union
+        semiconductor_engineer_count: 0
+        talent_availability: medium
+        talent_notes: ''
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: null
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: null
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: null
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: null

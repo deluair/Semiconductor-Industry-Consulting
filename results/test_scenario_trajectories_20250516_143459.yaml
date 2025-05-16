@@ -1,0 +1,816 @@
+regions: !!python/object/apply:collections.defaultdict
+    args:
+    - &id001 !!python/name:builtins.list ''
+    dictitems:
+        USA:
+        -   year: 2025
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2026
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2027
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2028
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2029
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2030
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2031
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2032
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2033
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2034
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2035
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2036
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2037
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2038
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2039
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2040
+            model_id: USA
+            name: United States
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        China:
+        -   year: 2025
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2026
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2027
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2028
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2029
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2030
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2031
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2032
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2033
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2034
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2035
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2036
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2037
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2038
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2039
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2040
+            model_id: China
+            name: China
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        EU:
+        -   year: 2025
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2026
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2027
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2028
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2029
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2030
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2031
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2032
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2033
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2034
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2035
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2036
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2037
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2038
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2039
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+        -   year: 2040
+            model_id: EU
+            name: European Union
+            semiconductor_engineer_count: 0
+            talent_availability: medium
+            talent_notes: ''
+companies: !!python/object/apply:collections.defaultdict
+    args:
+    - *id001
+    dictitems:
+        CompA:
+        -   year: 2025
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2026
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2027
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2028
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2029
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2030
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2031
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2032
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2033
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2034
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2035
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2036
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2037
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2038
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2039
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        -   year: 2040
+            model_id: CompA
+            name: Alpha Devices
+            company_type: null
+        CompB:
+        -   year: 2025
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2026
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2027
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2028
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2029
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2030
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2031
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2032
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2033
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2034
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2035
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2036
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2037
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2038
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2039
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+        -   year: 2040
+            model_id: CompB
+            name: Beta Fab
+            company_type: null
+technology_nodes: !!python/object/apply:collections.defaultdict
+    args:
+    - *id001
+    dictitems:
+        N3:
+        -   year: 2025
+            model_id: N3
+            name: 3nm Node
+        -   year: 2026
+            model_id: N3
+            name: 3nm Node
+        -   year: 2027
+            model_id: N3
+            name: 3nm Node
+        -   year: 2028
+            model_id: N3
+            name: 3nm Node
+        -   year: 2029
+            model_id: N3
+            name: 3nm Node
+        -   year: 2030
+            model_id: N3
+            name: 3nm Node
+        -   year: 2031
+            model_id: N3
+            name: 3nm Node
+        -   year: 2032
+            model_id: N3
+            name: 3nm Node
+        -   year: 2033
+            model_id: N3
+            name: 3nm Node
+        -   year: 2034
+            model_id: N3
+            name: 3nm Node
+        -   year: 2035
+            model_id: N3
+            name: 3nm Node
+        -   year: 2036
+            model_id: N3
+            name: 3nm Node
+        -   year: 2037
+            model_id: N3
+            name: 3nm Node
+        -   year: 2038
+            model_id: N3
+            name: 3nm Node
+        -   year: 2039
+            model_id: N3
+            name: 3nm Node
+        -   year: 2040
+            model_id: N3
+            name: 3nm Node
+        N5:
+        -   year: 2025
+            model_id: N5
+            name: 5nm Node
+        -   year: 2026
+            model_id: N5
+            name: 5nm Node
+        -   year: 2027
+            model_id: N5
+            name: 5nm Node
+        -   year: 2028
+            model_id: N5
+            name: 5nm Node
+        -   year: 2029
+            model_id: N5
+            name: 5nm Node
+        -   year: 2030
+            model_id: N5
+            name: 5nm Node
+        -   year: 2031
+            model_id: N5
+            name: 5nm Node
+        -   year: 2032
+            model_id: N5
+            name: 5nm Node
+        -   year: 2033
+            model_id: N5
+            name: 5nm Node
+        -   year: 2034
+            model_id: N5
+            name: 5nm Node
+        -   year: 2035
+            model_id: N5
+            name: 5nm Node
+        -   year: 2036
+            model_id: N5
+            name: 5nm Node
+        -   year: 2037
+            model_id: N5
+            name: 5nm Node
+        -   year: 2038
+            model_id: N5
+            name: 5nm Node
+        -   year: 2039
+            model_id: N5
+            name: 5nm Node
+        -   year: 2040
+            model_id: N5
+            name: 5nm Node
+        N28:
+        -   year: 2025
+            model_id: N28
+            name: 28nm Node
+        -   year: 2026
+            model_id: N28
+            name: 28nm Node
+        -   year: 2027
+            model_id: N28
+            name: 28nm Node
+        -   year: 2028
+            model_id: N28
+            name: 28nm Node
+        -   year: 2029
+            model_id: N28
+            name: 28nm Node
+        -   year: 2030
+            model_id: N28
+            name: 28nm Node
+        -   year: 2031
+            model_id: N28
+            name: 28nm Node
+        -   year: 2032
+            model_id: N28
+            name: 28nm Node
+        -   year: 2033
+            model_id: N28
+            name: 28nm Node
+        -   year: 2034
+            model_id: N28
+            name: 28nm Node
+        -   year: 2035
+            model_id: N28
+            name: 28nm Node
+        -   year: 2036
+            model_id: N28
+            name: 28nm Node
+        -   year: 2037
+            model_id: N28
+            name: 28nm Node
+        -   year: 2038
+            model_id: N28
+            name: 28nm Node
+        -   year: 2039
+            model_id: N28
+            name: 28nm Node
+        -   year: 2040
+            model_id: N28
+            name: 28nm Node
+end_markets: !!python/object/apply:collections.defaultdict
+    args:
+    - *id001
+    dictitems:
+        EM1:
+        -   year: 2025
+            model_id: EM1
+            name: Smartphones
+        -   year: 2026
+            model_id: EM1
+            name: Smartphones
+        -   year: 2027
+            model_id: EM1
+            name: Smartphones
+        -   year: 2028
+            model_id: EM1
+            name: Smartphones
+        -   year: 2029
+            model_id: EM1
+            name: Smartphones
+        -   year: 2030
+            model_id: EM1
+            name: Smartphones
+        -   year: 2031
+            model_id: EM1
+            name: Smartphones
+        -   year: 2032
+            model_id: EM1
+            name: Smartphones
+        -   year: 2033
+            model_id: EM1
+            name: Smartphones
+        -   year: 2034
+            model_id: EM1
+            name: Smartphones
+        -   year: 2035
+            model_id: EM1
+            name: Smartphones
+        -   year: 2036
+            model_id: EM1
+            name: Smartphones
+        -   year: 2037
+            model_id: EM1
+            name: Smartphones
+        -   year: 2038
+            model_id: EM1
+            name: Smartphones
+        -   year: 2039
+            model_id: EM1
+            name: Smartphones
+        -   year: 2040
+            model_id: EM1
+            name: Smartphones
+        EM2:
+        -   year: 2025
+            model_id: EM2
+            name: Automotive
+        -   year: 2026
+            model_id: EM2
+            name: Automotive
+        -   year: 2027
+            model_id: EM2
+            name: Automotive
+        -   year: 2028
+            model_id: EM2
+            name: Automotive
+        -   year: 2029
+            model_id: EM2
+            name: Automotive
+        -   year: 2030
+            model_id: EM2
+            name: Automotive
+        -   year: 2031
+            model_id: EM2
+            name: Automotive
+        -   year: 2032
+            model_id: EM2
+            name: Automotive
+        -   year: 2033
+            model_id: EM2
+            name: Automotive
+        -   year: 2034
+            model_id: EM2
+            name: Automotive
+        -   year: 2035
+            model_id: EM2
+            name: Automotive
+        -   year: 2036
+            model_id: EM2
+            name: Automotive
+        -   year: 2037
+            model_id: EM2
+            name: Automotive
+        -   year: 2038
+            model_id: EM2
+            name: Automotive
+        -   year: 2039
+            model_id: EM2
+            name: Automotive
+        -   year: 2040
+            model_id: EM2
+            name: Automotive
+policies: !!python/object/apply:collections.defaultdict
+    args:
+    - *id001
+    dictitems:
+        PolicyUSA1:
+        -   year: 2025
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2026
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2027
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2028
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2029
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2030
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2031
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2032
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2033
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2034
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2035
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2036
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2037
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2038
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2039
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        -   year: 2040
+            model_id: PolicyUSA1
+            name: US CHIPS Act Funding Wave 1
+            policy_type: null
+        PolicyEU1:
+        -   year: 2025
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2026
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2027
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2028
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2029
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2030
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2031
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2032
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2033
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2034
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2035
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2036
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2037
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2038
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2039
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null
+        -   year: 2040
+            model_id: PolicyEU1
+            name: EU Chips Act Initial Investment
+            policy_type: null

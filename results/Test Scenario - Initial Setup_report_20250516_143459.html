@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation Report: Test Scenario - Initial Setup</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 2px solid #4CAF50; padding-bottom: 10px; }
+        h2 { color: #4CAF50; margin-top: 30px; }
+        h3 { color: #555; margin-top: 20px; }
+        h4 { color: #666; margin-top: 15px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f0f0f0; }
+        .code { background-color: #eee; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+        .parameters ul { list-style-type: none; padding-left: 0; }
+        .parameters li { background-color: #e9e9e9; margin-bottom: 5px; padding: 8px; border-radius: 4px; }
+        .parameters li strong { color: #333; }
+        .model-section { margin-bottom: 30px; border-left: 3px solid #4CAF50; padding-left: 15px; }
+        .plots { margin-top: 30px; }
+        .plot-container { margin-bottom: 20px; padding: 10px; background-color: #f9f9f9; border-radius: 4px; }
+        .plot-image { max-width: 100%; height: auto; border: 1px solid #ddd; margin-top: 10px; display: block; margin-left: auto; margin-right: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulation Report: Test Scenario - Initial Setup</h1>
+        <p><strong>Run Timestamp:</strong> 20250516_143459</p>
+        <p><strong>Simulation Period:</strong> 2025 - 2040</p>
+
+        <div class="parameters">
+            <h2>Global Parameters</h2>
+            <ul><li><strong>inflation_rate:</strong> 0.02</li><li><strong>trade_tension_factor:</strong> 0.1</li></ul>
+        </div>
+
+        <div class="model-results">
+            <h2>Model Results Summary</h2>
+            <div class="model-section"><h3>Regions</h3><h4>USA</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>USA</td><td>USA</td></tr><tr><td>name</td><td>United States</td><td>United States</td></tr><tr><td>semiconductor_engineer_count</td><td>0</td><td>0</td></tr><tr><td>talent_availability</td><td>medium</td><td>medium</td></tr><tr><td>talent_notes</td><td></td><td></td></tr></tbody></table><h4>China</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>China</td><td>China</td></tr><tr><td>name</td><td>China</td><td>China</td></tr><tr><td>semiconductor_engineer_count</td><td>0</td><td>0</td></tr><tr><td>talent_availability</td><td>medium</td><td>medium</td></tr><tr><td>talent_notes</td><td></td><td></td></tr></tbody></table><h4>EU</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>EU</td><td>EU</td></tr><tr><td>name</td><td>European Union</td><td>European Union</td></tr><tr><td>semiconductor_engineer_count</td><td>0</td><td>0</td></tr><tr><td>talent_availability</td><td>medium</td><td>medium</td></tr><tr><td>talent_notes</td><td></td><td></td></tr></tbody></table></div><div class="model-section"><h3>Companies</h3><h4>CompA</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>company_type</td><td>None</td><td>None</td></tr><tr><td>model_id</td><td>CompA</td><td>CompA</td></tr><tr><td>name</td><td>Alpha Devices</td><td>Alpha Devices</td></tr></tbody></table><h4>CompB</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>company_type</td><td>None</td><td>None</td></tr><tr><td>model_id</td><td>CompB</td><td>CompB</td></tr><tr><td>name</td><td>Beta Fab</td><td>Beta Fab</td></tr></tbody></table></div><div class="model-section"><h3>Technology Nodes</h3><h4>N3</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>N3</td><td>N3</td></tr><tr><td>name</td><td>3nm Node</td><td>3nm Node</td></tr></tbody></table><h4>N5</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>N5</td><td>N5</td></tr><tr><td>name</td><td>5nm Node</td><td>5nm Node</td></tr></tbody></table><h4>N28</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>N28</td><td>N28</td></tr><tr><td>name</td><td>28nm Node</td><td>28nm Node</td></tr></tbody></table></div><div class="model-section"><h3>End Markets</h3><h4>EM1</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>EM1</td><td>EM1</td></tr><tr><td>name</td><td>Smartphones</td><td>Smartphones</td></tr></tbody></table><h4>EM2</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>EM2</td><td>EM2</td></tr><tr><td>name</td><td>Automotive</td><td>Automotive</td></tr></tbody></table></div><div class="model-section"><h3>Policies</h3><h4>PolicyUSA1</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>PolicyUSA1</td><td>PolicyUSA1</td></tr><tr><td>name</td><td>US CHIPS Act Funding Wave 1</td><td>US CHIPS Act Funding Wave 1</td></tr><tr><td>policy_type</td><td>None</td><td>None</td></tr></tbody></table><h4>PolicyEU1</h4><table><thead><tr><th>Attribute</th><th>Initial Value ({html.escape(str(initial_state.get('year', 'N/A' )))})</th><th>Final Value ({html.escape(str(final_state.get('year', 'N/A' )))})</th></tr></thead><tbody><tr><td>model_id</td><td>PolicyEU1</td><td>PolicyEU1</td></tr><tr><td>name</td><td>EU Chips Act Initial Investment</td><td>EU Chips Act Initial Investment</td></tr><tr><td>policy_type</td><td>None</td><td>None</td></tr></tbody></table></div>
+        </div>
+
+        <div class="plots">
+            <h2>Visualizations</h2>
+            
+    <div class="plot-container">
+        <h4>Test Scenario - Initial Setup Regions Eu Semiconductor Engineer Count</h4>
+        <img src="Test Scenario - Initial Setup_regions_EU_semiconductor_engineer_count.png" alt="Test Scenario - Initial Setup Regions Eu Semiconductor Engineer Count" class="plot-image">
+    </div>
+ 
+        </div>
+
+    </div>
+</body>
+</html>

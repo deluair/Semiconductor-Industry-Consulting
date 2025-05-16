@@ -1,0 +1,1968 @@
+2025:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2026:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2027:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2028:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2029:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2030:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2031:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2032:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2033:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2034:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2035:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2036:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2037:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2038:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2039:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
+2040:
+    regions:
+    -   model_id: USA
+        name: United States
+        gdp: 25000000000000.0
+        political_stability: 0.7
+        semiconductor_investment_focus: 0.8
+        research_funding: 50000000000.0
+        water_availability: 0.6
+        power_stability: 0.9
+        labor_cost: 150000
+        environmental_regulations: 0.7
+        existing_fab_count: 20
+        semiconductor_engineer_count: 70000
+        talent_availability: medium
+        talent_notes: Significant investment via CHIPS Act, but ongoing talent competition.
+    -   model_id: China
+        name: China
+        gdp: 18000000000000.0
+        political_stability: 0.8
+        semiconductor_investment_focus: 0.9
+        research_funding: 100000000000.0
+        water_availability: 0.5
+        power_stability: 0.8
+        labor_cost: 80000
+        environmental_regulations: 0.6
+        existing_fab_count: 50
+        semiconductor_engineer_count: 200000
+        talent_availability: high
+        talent_notes: Large pool of engineers, strong government push for self-sufficiency.
+    -   model_id: EU
+        name: European Union
+        gdp: 17000000000000.0
+        political_stability: 0.75
+        semiconductor_investment_focus: 0.6
+        research_funding: 40000000000.0
+        water_availability: 0.7
+        power_stability: 0.85
+        labor_cost: 120000
+        environmental_regulations: 0.8
+        existing_fab_count: 15
+        semiconductor_engineer_count: 50000
+        talent_availability: shortage
+        talent_notes: McKinsey & Synopsys report significant talent gap and need for
+            upskilling. EU Chips Act aims to address this.
+    companies:
+    -   model_id: CompA
+        name: Alpha Devices
+        company_type: IDM
+        region_id: USA
+        specialization: Leading-Edge Logic
+        market_share: 0.2
+        rd_intensity: 0.15
+        capex: 30000000000.0
+        revenue: 150000000000.0
+        global_strategy_score: 0.8
+        agility_score: 0.7
+        supply_chain_resilience: 0.6
+        current_node_id: N3
+    -   model_id: CompB
+        name: Beta Fab
+        company_type: Foundry
+        region_id: China
+        specialization: Mature Node Foundry
+        market_share: 0.1
+        rd_intensity: 0.05
+        capex: 10000000000.0
+        revenue: 50000000000.0
+        global_strategy_score: 0.5
+        agility_score: 0.8
+        supply_chain_resilience: 0.7
+        current_node_id: N28
+    technology_nodes:
+    -   model_id: N3
+        name: 3nm Node
+        maturity_level: 0.9
+        cost_per_wafer: 17000.0
+        development_risk: 0.2
+    -   model_id: N5
+        name: 5nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 12000.0
+        development_risk: 0.1
+    -   model_id: N28
+        name: 28nm Node
+        maturity_level: 1.0
+        cost_per_wafer: 3000.0
+        development_risk: 0.05
+    end_markets:
+    -   model_id: EM1
+        name: Smartphones
+        size: 700000000000.0
+        growth_rate: 0.03
+        chip_demand_factor: '{''N3'': 0.6, ''N5'': 0.3, ''N28'': 0.1}'
+    -   model_id: EM2
+        name: Automotive
+        size: 300000000000.0
+        growth_rate: 0.08
+        chip_demand_factor: '{''N5'': 0.2, ''N28'': 0.8}'
+    policies:
+    -   model_id: PolicyUSA1
+        name: US CHIPS Act Funding Wave 1
+        policy_type: InvestmentIncentive
+        issuing_region_id: USA
+        target_entity_type: COMPANY
+        target_entity_ids: '[''CompA'']'
+        start_year: 2025
+        end_year: 2028
+        value_impact: 5000000000.0
+        conditions: Focus on leading-edge onshore manufacturing
+        current_status: active
+    -   model_id: PolicyEU1
+        name: EU Chips Act Initial Investment
+        policy_type: InvestmentIncentive
+        issuing_region_id: EU
+        target_entity_type: REGION
+        target_entity_ids: '[''EU'']'
+        start_year: 2025
+        end_year: 2029
+        value_impact: 10000000000.0
+        conditions: Strengthen EU semiconductor ecosystem, focus on research and advanced
+            nodes
+        current_status: active
